@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Jose Alejandro Nuñez Andeme is a Full-Stack Web Developer from Equatorial Guinea specializing in responsive websites, UI/UX design, frontend and backend development."/>
+        <meta name="keywords" content="Full-Stack Developer, Web Developer, Frontend Developer, Backend Developer, JavaScript, PHP, MySQL, Portfolio, Equatorial Guinea, Malabo"/>
+        <meta name="author" content="Jose Alejandro Nuñez Andeme" />
+        <meta property="og:title" content="Jose Alejandro Nuñez Andeme | Full-Stack Developer" />
+        <meta property="og:description" content="Portfolio website of Jose Alejandro Nuñez Andeme, Full-Stack Web Developer." />
+        <meta property="og:type" content="website" />
+        <title>Jose Alejandro Nuñez Andeme | Full-Stack Web Developer in Equatorial Guinea</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="icon" href="images/alter-academysvg.svg">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <!-- NAV -->
+        <nav id="navbar">
+            <a href="#" class="nav-logo" onclick="showPage('home')">ALTERTE</a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#" onclick="showPage('home'); return false;">Home</a></li>
+                <li><a href="#" onclick="showPage('skills'); return false;">Habilidades</a></li>
+                <li><a href="#" onclick="showPage('about'); return false;">Sobre mi</a></li>
+                <li><a href="#" class="nav-cta" onclick="showPage('contact'); return false;">Contactame</a></li>
+            </ul>
+        </nav>
+
+<!-- ═══════════════════════════ HOME ═══════════════════ -->
+    <div id="page-home" class="page active">
+    <div class="hero">
+        <div class="hero-left">
+            <div class="hero-badge fade-up">Disponible para trabajar</div>
+            <h1 class="fade-up delay-1">
+                Construyendo<br>
+                <em>experiencias</em><br>
+                digitales
+            </h1>
+            <p class="hero-desc fade-up delay-2">Desarrolador Web Full-Stack especializado en codigo limpio, interfazes fluidas y productos que dejan a mis clientes satisfechos.</p>
+            <div class="hero-btns fade-up delay-3">
+                <button class="btn-primary" onclick="showPage('skills')">
+                <i class="fa-solid fa-bolt"></i> ver mi trabajo
+                </button>
+                <button class="btn-outline" onclick="showPage('contact')">
+                <i class="fa-regular fa-envelope"></i> Contactame
+                </button>
+            </div>
+            <div class="hero-stats fade-up delay-4">
+                <div>
+                    <span class="stat-num">2+</span>
+                    <span class="stat-label">Años de experiencia</span>
+                </div>
+                <div>
+                    <span class="stat-num">9+</span>
+                    <span class="stat-label">Proyectos lanzados</span>
+                </div>
+                <div>
+                    <span class="stat-num">5+</span>
+                    <span class="stat-label">Clientes felices</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="hero-visual fade-up delay-2">
+            <div class="avatar-frame">
+                <div class="avatar-bg">
+                <div class="avatar-initials">JANA</div>
+                <div class="avatar-name">Jose Alejandro Nuñez Andeme</div>
+                <div class="avatar-role">// Desarrollador y Diseñador</div>
+                </div>
+            </div>
+            <div class="float-card top-left">
+                <div class="float-dot" style="background:#c8f55a"></div>
+                <span style="color:#f0ede8; font-size:13px">Frontend · Backend</span>
+            </div>
+            <div class="float-card bottom-right">
+                <i class="fa-solid fa-code" style="color:#5af5c8; font-size:14px"></i>
+                <span style="color:#f0ede8; font-size:13px">Limpio · Rapido · Accessible</span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+    <div id="page-skills" class="page">
+        <section>
+            <span class="section-tag fade-up">Experto en</span>
+            <h2 class="section-title fade-up delay-1">Habilidades &amp; Stack</h2>
+            <p class="section-sub fade-up delay-2">Una lista curada construida durante mi tiempo de trabajo profesional, de UI perfectos hasta el ultimo pixel hasta robustas aplicaciones.</p>
+        
+            <div class="skills-grid">
+                <div class="skill-card fade-up">
+                    <div class="skill-icon">
+                        <img src="images/html5.svg" alt="html5 logo">
+                        <img src="images/css3.svg" alt="CSS3 logo">
+                        <img src="images/javascript.svg" alt="JavaScript logo">
+                    </div>
+                    <h3>Desarrollo Frontend</h3>
+                    <p>Creación de interfaces rápidas y accesibles con patrones modernos de React y sistemas de diseño basados ​​en componentes.</p>
+                    <div class="skill-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="skill-bar-wrap"><div class="skill-bar" style="width:92%"></div></div>
+                </div>
+        
+                <div class="skill-card fade-up delay-1">
+                    <div class="skill-icon">
+                        <img src="images/mysql-wordmark-light.svg" alt="MySQL logo">
+                        <img src="images/javascript.svg" alt="Javascript logo">
+                        <img src="images/php.svg" alt="php logo">
+                    </div>
+                    <h3>Desarrollo Backend</h3>
+                    <p>Diseño y construcción de bases de datos y servicios del lado del servidor con principios de arquitectura limpia.</p>
+                    <div class="skill-tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">PHP</span>
+                    </div>
+                    <div class="skill-bar-wrap"><div class="skill-bar" style="width:85%; background:#5af5c8"></div></div>
+                </div>
+        
+                <div class="skill-card fade-up delay-2">
+                    <div class="skill-icon">
+                        <img src="images/git.svg" alt="git logo">
+                        <img src="images/github.svg" alt="github logo">
+                    </div>
+                    <h3>Git &amp; Github</h3>
+                    <p>Seguimiento de cambios, colaboración y alojamiento en la nube, control de versiones e historial</p>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">Github</span>
+                    </div>
+                    <div class="skill-bar-wrap"><div class="skill-bar" style="width:75%; background:#f5a75a"></div></div>
+                </div>
+        
+                <div class="skill-card fade-up delay-3">
+                    <div class="skill-icon">
+                        <img src="images/figma.svg" alt="figma logo">
+                        <img src="images/canva.svg" alt="canva logo">
+                        <img src="images/affinity-designer.svg" alt="affinity designer logo">
+                    </div>
+                    <h3>UI / UX Design</h3>
+                    <p>Traducir requisitos complejos en interfaces de usuario limpias e intuitivas, desde el wireframe hasta el píxel final.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">Canva</span>
+                        <span class="tag">Affinity Designer</span>
+                    </div>
+                    <div class="skill-bar-wrap"><div class="skill-bar" style="width:80%; background:#f55a7a"></div></div>
+                </div>
+        
+                <div class="skill-card fade-up delay-4">
+                    <div class="skill-icon">
+                        <img src="images/mysql-wordmark-light.svg" alt="MySQL logo">
+                    </div>
+                    <h3>Databases</h3>
+                    <p>Estructuración de modelos de datos relacionales y documentales para optimizar el rendimiento y la mantenibilidad a gran escala.</p>
+                    <div class="skill-tags">
+                        <span class="tag">MySQL</span>
+                    </div>
+                    <div class="skill-bar-wrap"><div class="skill-bar" style="width:88%"></div></div>
+                </div>
+
+                <div class="skill-card fade-up delay-4">
+                    <div class="skill-icon">
+                        <img src="images/cmd.png" alt="Command line logo">
+                        <img src="images/linux.svg" alt="linux OS logo">
+                    </div>
+                    <h3>CMD &amp; Bash</h3>
+                    <p>Amplio conocimiento de comandos en Linux como en windows, automatizacion de tareas y troubleshooting</p>
+                    <div class="skill-tags">
+                        <span class="tag">CMD</span>
+                        <span class="tag">Bash</span>
+                        <span class="tag">PowerShell</span>
+                    </div>
+                    <div class="skill-bar-wrap"><div class="skill-bar" style="width:88%"></div></div>
+                </div>
+            </div>
+        
+            <div style="margin-top:3rem">
+            <span class="section-tag">Herramientas &amp; Tecnologias</span>
+            <div class="tools-row">
+                <div class="tool-pill"><i class="fa-brands fa-git-alt"></i> Git</div>
+                <div class="tool-pill"><i class="fa-brands fa-github"></i> GitHub</div>
+                <div class="tool-pill"><i class="fa-solid fa-terminal"></i> VS Code</div>
+                <div class="tool-pill"><i class="fa-brands fa-figma"></i> Figma</div>
+                <div class="tool-pill"><i class="fa-brands fa-linux"></i> Linux</div>
+                <div class="tool-pill"><i class="fa-solid fa-cloud"></i> MySQL Workbench</div>
+                <div class="tool-pill"><i class="fa-brands fa-stripe"></i> Netlify</div>
+                <div class="tool-pill"><i class="fa-solid fa-fire-flame-curved"></i> Firebase</div>
+                <div class="tool-pill"><i class="fa-solid fa-magnifying-glass"></i> CMD</div>
+                <div class="tool-pill"><i class="fa-solid fa-chart-line"></i> Analytics</div>
+                <div class="tool-pill"><i class="fa-brands fa-npm"></i> npm</div>
+            </div>
+            </div>
+        </section>
+    </div>
+
+<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+    <div id="page-about" class="page">
+      <section>
+        <div class="about-grid">
+          <div class="about-portrait fade-up">
+            <div class="portrait-card">
+              <div class="portrait-inner"><img src="images/IMG_0482.PNG" alt="Jose Alejandro Nuñez Andeme portrait" loading="lazy"></div>
+              <div class="portrait-caption">
+                <strong>Jose Alejandro Nuñez Andeme</strong>
+                <p>Desarrolador Full-Stack</p>
+                <p style="margin-top:6px; display:flex; align-items:center; gap:6px">
+                  <i class="fa-solid fa-location-dot" style="color:#c8f55a; font-size:12px"></i>
+                  Malabo, Guinea Ecuatorial
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="about-content">
+            <h2 class="fade-up">Hey, I'm Alex.</h2>
+    
+            <p class="fade-up delay-1">
+              Soy un <strong> desarrollador full-stack</strong> Cuento con más de dos años de experiencia profesional en el desarrollo de productos web para los sectores fintech, comercio electrónico y SaaS. Me preocupo profundamente por la calidad del código, el rendimiento y las personas que, en última instancia, utilizan mis productos.
+            </p>
+    
+            <p class="fade-up delay-2">
+              Mi enfoque es simple: <strong>entender el problema primero</strong>, Luego, recurro a las herramientas adecuadas para resolverlo. Me siento igual de cómodo trabajando en interacciones de interfaz de usuario complejas que diseñando un esquema de base de datos escalable.
+            </p>
+    
+            <p class="fade-up delay-3">
+              Cuando no estoy escribiendo código, probablemente estoy trabajando en proyectos paralelos, contribuyendo a proyectos de código abierto o explorando las últimas investigaciones en lenguajes de programación y sistemas distribuidos.
+            </p>
+    
+            <div class="values-list fade-up delay-3">
+              <div class="value-item">
+                <span class="value-icon" style="color:#c8f55a"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                <div>
+                  <h4>Artesanía</h4>
+                  <p>Lo suficientemente bueno nunca es suficiente. Cada detalle importa, desde nombrar una variable hasta perfeccionar una animación.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <span class="value-icon" style="color:#5af5c8"><i class="fa-solid fa-users"></i></span>
+                <div>
+                  <h4>Colaboracion</h4>
+                  <p>Los grandes productos son creados por grandes equipos. Creo en la comunicación abierta y la responsabilidad compartida.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <span class="value-icon" style="color:#f5a75a"><i class="fa-solid fa-seedling"></i></span>
+                <div>
+                  <h4>Crecimiento Continuo</h4>
+                  <p>La web evoluciona rápidamente. Invierto en mantenerme al día y reflexionar sobre lo que aprendo cada semana..</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="social-row fade-up delay-4">
+              <a class="social-btn" href="https://github.com/ALTERTE" aria-label="Visita mi cuenta de GitHub" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a class="social-btn" href="https://wa.me/240222516272" aria-label="Escribeme en WhatsApp" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+              <a class="social-btn" href="https://t.me/ALTERTE004" aria-label="Visita mi cuenta de Telegram" rel="noopener noreferrer"><i class="fa-brands fa-telegram"></i> Telegram</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+<!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+<div id="page-contact" class="page">
+  <section>
+    <span class="section-tag fade-up">Hablemos</span>
+    <h2 class="section-title fade-up delay-1">Ponte en Contacto</h2>
+    <p class="section-sub fade-up delay-2">Estoy disponible para proyectos freelance, puestos a tiempo completo y colaboraciones interesantes. Contáctame.</p>
+
+    <div class="contact-grid">
+      <div class="contact-info fade-up delay-1">
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:akomasi986@gmail.com" rel="noopener noreferrer">
+            <div class="contact-link-icon" style="background:rgba(200,245,90,0.1); color:#c8f55a">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>akomasi986@gmail.com</p>
+            </div>
+          </a>
+          <a class="contact-link" href="https://github.com/ALTERTE" rel="noopener noreferrer">
+            <div class="contact-link-icon" style="background:rgba(245,90,122,0.1); color:#f55a7a">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div>
+              <h4>GitHub</h4>
+              <p>github.com/ALTERTE</p>
+            </div>
+          </a>
+          <a class="contact-link" href="https://maps.app.goo.gl/84Beu3CWGfdm9hEQ8" rel="noopener noreferrer">
+            <div class="contact-link-icon" style="background:rgba(245,167,90,0.1); color:#f5a75a">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p>Malabo, Guinea Ecuatorial</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="fade-up delay-2">
+        <p>Al mandar su correo, no añada enlaces ni documentos adjuntos, a lo contrario estos se bloquearan y no llegaran a mi bandeja de entrada.</p>
+        <form class="contact-form" action="https://formspree.io/f/xaqkknwy" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nombre</label>
+              <input type="text" placeholder="Jane" name="Nombre" required>
+            </div>
+            <div class="form-group">
+              <label>Apellido</label>
+              <input type="text" placeholder="Smith" name="Apellido" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Correo</label>
+            <input type="email" placeholder="jane@example.com" name="Correo Electronico" required>
+          </div>
+          <div class="form-group">
+            <label>Sujeto</label>
+            <input type="text" placeholder="Consulta de proyecto, Oferta de trabajo..." name="Sujeto" required>
+          </div>
+          <div class="form-group">
+            <label>Mensaje</label>
+            <textarea rows="5" placeholder="Dime sobre tu proyecto o idea..." name="Cuerpo de mensaje" required></textarea>
+          </div>
+          <button type="submit" class="form-submit">
+            <i class="fa-solid fa-paper-plane"></i>
+            Mandar Mensaje
+          </button>
+        </form>
+        <div class="form-success" id="form-success">
+          <i class="fa-solid fa-circle-check"></i>
+          <h3>Message sent!</h3>
+          <p>Thanks for reaching out. I'll get back to you within 48 hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- FOOTER -->
+<footer>
+  Built with &nbsp;<span>♥</span>&nbsp; by Jose Alejandro Nuñez Andeme &nbsp;·&nbsp; <span>2025</span>
+</footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
