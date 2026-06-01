@@ -553,7 +553,7 @@ section {
 
 .timeline-year {
     font-family: var(--mono);
-    font-size: 20px;
+    font-size: 25px;
     color: var(--accent);
     background: rgba(200, 245, 90, 0.08);
     border: 1px solid rgba(200, 245, 90, 0.2);
@@ -562,20 +562,28 @@ section {
 }
 
 .timeline-place {
-    font-size: 13px;
+    font-size: 25px;
     color: var(--muted);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:active{
+    color: inherit;
 }
 
 .timeline-item h3 {
-    font-family: var(--serif);
-    font-size: 1.5rem;
+    font-family: 'boldonse';
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
     color: var(--text);
     margin-bottom: 0.4rem;
 }
 
 .timeline-item p {
     color: var(--muted);
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.7;
     max-width: 600px;
 }
@@ -585,12 +593,18 @@ section {
     align-items: center;
     gap: 6px;
     margin-top: 0.75rem;
-    font-size: 12px;
+    font-size: 25px;
+    letter-spacing: 0.1rem;
     color: var(--accent2);
     background: rgba(90, 245, 200, 0.08);
     border: 1px solid rgba(90, 245, 200, 0.2);
     padding: 4px 12px;
     border-radius: 4px;
+    font-family: 'coolvetica';
+    transition: 0.2s ease-in;
+}
+.timeline-badge a:hover{
+    transform: translateX(1px);
 }
 
 /* Cert cards */
